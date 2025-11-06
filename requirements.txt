@@ -1,0 +1,23 @@
+# repair_chatbot.py 실행을 위한 패키지 목록
+
+# Streamlit 및 기본 유틸리티
+streamlit
+pandas
+loguru
+pillow
+numpy
+
+# PDF 처리 및 OCR
+pymupdf
+easyocr
+
+# LLM, 임베딩 및 벡터스토어 (LangChain 기반)
+langchain
+langchain-community
+langchain-core
+langchain-google-genai
+faiss-cpu
+sentence-transformers
+
+# 기타 유틸리티 (tiktoken은 선택적)
+tiktoken
